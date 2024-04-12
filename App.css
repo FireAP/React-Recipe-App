@@ -1,0 +1,150 @@
+body {
+  font-family: 'Banschrift', sans-serif;
+  background-image: url("C:\React App\RecipeList\src\background.jpg"); 
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 626;
+  height: 417;
+}
+
+.App {
+  font-family: 'Bahnschrift', sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+text{
+  font-family: 'Banschrift', sans-serif;
+}
+
+h1 {
+  font-family: 'Bahnschrift', sans-serif;
+  color: coral;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px; 
+  background-color: rgba(0, 0, 0, 0.744); 
+  max-width: 100px;
+  text-align: center;
+  margin-left: 639px;
+  border-radius: 10px;
+}
+
+h2{
+  font-family: 'Bahnschrift', sans-serif;
+  color:rgb(248, 116, 116);
+  font-size: 29px;
+}
+.recipe-form {
+  font-family: 'Bahnschrift', sans-serif;
+  margin-bottom: 40px;
+  background-color: #2ca5abc4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.2);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.recipe-form input,
+.recipe-form textarea,
+.recipe-form button {
+  font-family: 'Bahnschrift', sans-serif;
+  display: block;
+  margin: 10px auto;
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #dc1d1d;
+  border-radius: 5px;
+}
+
+.recipe-form button {
+  font-family: 'Bahnschrift', sans-serif;
+  background-image: url('C:\React App\RecipeList\src\Add Recipe.png'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+  width: 234px;
+  height: 60px;
+  padding: 0;
+  border-radius: 9px;
+  margin-top: 7px;
+  margin-bottom: 4px;
+}
+
+.recipe-form button:hover {
+  background-color: #555;
+}
+
+.recipe-list button:hover{
+  cursor: grab;
+}
+.recipe-list {
+  font-family: 'Bahnschrift', sans-serif;
+  font-size: 28px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f6e84f70;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-list h2 {
+  background: linear-gradient(to top, #8ad6d0, rgba(0, 255, 85, 0.7)); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+  text-decoration: wavy;
+}
+
+.recipe-form{
+  margin-bottom: 40px;
+}
+
+.recipe-list label{
+  font-size: 15px;
+  font-family: "Helvetica";
+  text-align: center;
+
+}
+.recipe-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recipe-list ol {
+  font-family: 'Bahnschrift';
+}
+
+.recipe-list li {
+  font-family: "Varela Round";
+  font-weight: bold;
+  color: rgb(149, 255, 205);
+  text-align: left;
+  background-color: #00000092;
+  border: 1px solid #ff9b53;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 52px;
+}
+
+.recipe-list li h3 {
+  margin-top: 20;
+}
+
+.recipe-list li p {
+  margin-bottom: 5px;
+}
