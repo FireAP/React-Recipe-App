@@ -65,7 +65,7 @@ h2{
 
 .recipe-form button {
   font-family: 'Bahnschrift', sans-serif;
-  background-image: url('C:\React App\RecipeList\src\Add Recipe.png'); 
+  background-image: url('\Add Recipe.png'); 
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
